@@ -1,0 +1,332 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:  "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  
+  background-size: cover;
+}
+/*
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+  color: #6c63ff;;
+}
+
+.content {
+  margin-top: 50vh;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  
+  background: #f1f1f1;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+.intro {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  margin: 1rem ;
+  transition: color 0.3s ease-in-out;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #6c63ff;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover::before {
+  transform-origin: right;
+  transform: scaleX(1);
+}
+
+.card:hover {
+  color: #fff;
+  background-color: #6c63ff;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6c63ff;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+*/
+.portafolio-container{
+  
+  display: flex;
+  flex-wrap: wrap; /* Esto hace que las secciones se agrupen en filas */
+}
+
+section{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 730px;
+  line-height: 1.1;
+  box-sizing: border-box; /* Esto incluirá los bordes y el padding en el ancho de la sección */
+  padding: 100px; /* Añade un padding para separar las secciones */
+  
+}
+.portafolio-aboutMe{
+  background: linear-gradient(90deg, #422fbe 66.2%, #e8b86b 33%)
+  
+  
+ 
+}
+.portafolio-header{
+  width: 80%;
+  color: white;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  
+  
+}
+.portafolio-header h1{
+  font-size: 4.4em;
+  margin-top: 0;
+  position: relative;
+  top: 100px;
+  width: 30%;
+  color: #e8b86b;
+}
+.portafolio-header .portafolio-description{
+  position: relative;
+  top: 70px;
+  font-size: 1.3em;
+  width: 40%;
+  
+}
+.portafolio-header .portafolio-description-frame {
+  display: flex;
+  
+  flex-direction: row;
+  width: 45%;
+  position: relative;
+  
+  top: 200px;
+  color: #e8b86b;
+  font-size: 0.965em;
+}
+.portafolio-header .portafolio-description-frame p{
+  margin-right: 2rem;
+  width: 500px;
+}
+
+  .triangulo{
+    
+    position: absolute;
+    left: 480px;
+    top: 200px;
+    width: 250px;
+
+  }
+  .triangulo2{
+    
+    position: absolute;
+    left: 590px;
+    top: 140px;
+    width: 250px;
+    rotate: 352grad;
+
+  }
+  .triangulo2 path{
+    fill: none;
+    stroke: #e8b86b;
+  }
+
+  .triangulo3{
+    
+    position: absolute;
+    left: 1090px;
+    top: 149px;
+    width: 250px;
+    rotate: -100grad;
+
+  }
+  .forma{
+ 
+    position: absolute;
+    left: -300px;
+    top: 80px;
+    
+  }
+  .forma path{
+    stroke:#e8b86b ;
+    stroke-width: 1;
+  
+  }
+  .triangulo3 path{
+    fill: none;
+    stroke: #422fbe;
+  }
+  .triangulo path{
+    fill: none;
+    stroke: #e8b86b;
+  }
+  .cuadrado{
+    
+    position: absolute;
+    left: 560px;
+    top: -80px;
+    width: 300px;
+    
+
+  }
+  .cuadrado2{
+    
+    position: absolute;
+    left: 947px;
+    top: 200px;
+    width: 300px;
+    
+
+  }
+  .cuadrado path {
+    fill: none;
+    stroke: #e8b86b;
+    stroke-width: 2;
+    stroke-miterlimit: 50;
+  }
+  .cuadrado2 path{
+    fill: none;
+    stroke: #422fbe;
+    stroke-width: 2;
+    stroke-miterlimit: 50;
+  }
+.portafolio-img-container{
+  width: 350px !important;
+  height: 355px;
+  background-color: rgb(157, 162, 172);
+  justify-content: center;
+  display: absolute;
+  align-content: center;
+  align-items: center;
+  border-radius: 1%;
+  position: relative;
+  left: 800px;
+  top: -330px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  z-index: 2;
+}
+
+.portafolio-img{
+  width: 350px;
+  height: 350px;
+  
+  position: relative;
+  top: 5px;
+ 
+}
+.portafolio-img-frame {
+  width: 354px !important;
+  height: 350px;
+  border: 2px solid #fff;
+  border-radius: 1%;
+  position: absolute;
+  left: 830px;
+  top: 70px;
+  z-index: 1;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
